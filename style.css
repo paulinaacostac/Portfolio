@@ -1,3 +1,24 @@
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.github-icon {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.linkedin-icon {
+  position: absolute;
+  height: 32px;
+  width: 40px;
+  right: 350px;
+  top: 40px;
+}
+
 body {
     color: #40514E;
     margin: 0;
@@ -20,11 +41,6 @@ body {
     padding-bottom: 10px;
   }
   
-  h3 {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
   p {
     line-height: 2;
   }
@@ -44,6 +60,79 @@ body {
     margin: 100px auto;
   }
   
+  
+  .middle-container {
+    margin: 100px 20px 20px;
+  }
+
+  .about-me {
+    width: 30%;
+    margin: auto;
+    font-size: large;
+  }
+
+  .projects {
+    padding: auto;
+    padding-bottom: 100px;
+}
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+}
+
+.project-1 {
+  background-color: #669EBF;
+}
+
+.project-2 {
+  background-color:#66A9BF;
+}
+
+.project-3 {
+  background-color:#66B4BF;
+}
+
+.project-4 {
+  background-color:#66BFBF;
+}
+
+.project-5 {
+  background-color:#66BFB4;
+}
+
+.project-6 {
+  background-color:#66BFA9;
+}
+
+.project-7 {
+    background-color:#66BF9E;
+}
+
+.project-8 {
+  background-color: #31A094;
+}
+
+
+.project-text {
+  text-align:center;
+  font-size:  25px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  color: #2B5151;
+}
+
+.project-image {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    opacity: 0.5;
+  }
+  
+
   a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
@@ -51,16 +140,6 @@ body {
     text-decoration: none;
   }
   
-  .top-container {
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
-    padding-bottom: 80px;
-  }
-  
-  .middle-container {
-    margin: 100px 0;
-  }
   
   .bottom-container {
     background-color: #66BFBF;
@@ -70,42 +149,7 @@ body {
   .bottom-container h2 {
     color: white;
     margin-top: 10px;
-  }
-  
-  .projects {
-      padding: auto;
-      padding-bottom: 100px;
-  }
-  
-  .about-me {
-    width: 30%;
-    margin: auto;
-    font-size: large;
-  }
-  
-  .contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-  }
-  
-  .copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-  }
-  
-  .github-icon {
-    position: absolute;
-    right: 300px;
-    top: 40px;
-  }
-  .linkedin-icon {
-    position: absolute;
-    height: 32px;
-    width: 40px;
-    right: 350px;
-    top: 40px;
-  }
+  }  
   
   .footer-linkedin-icon {
     height: 32px;
@@ -117,74 +161,8 @@ body {
     width: 40px;
   }
   
-  .code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-  }
-
   
-  .chilli-img {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-  }
   
-  .column-4 {
-    float: left;
-    width: 21%;
-    padding: 10px;
-    margin:20px;
-    height: 250px;
-  }
-
-  .project-image {
-    position: relative;
-    width: 250px;
-    height: 200px;
-    opacity: 0.5;
-  }
-
-  .project-1 {
-    background-color: #669EBF;
-  }
-  
-  .project-2 {
-    background-color:#66A9BF;
-  }
-  
-  .project-3 {
-    background-color:#66B4BF;
-  }
-  
-  .project-4 {
-    background-color:#66BFBF;
-  }
-  
-  .project-5 {
-    background-color:#66BFB4;
-  }
-  
-  .project-6 {
-    background-color:#66BFA9;
-  }
-  
-  .project-7 {
-      background-color:#66BF9E;
-  }
-  
-  .project-8 {
-    background-color: #31A094;
-  }
-
-  .project-text {
-    text-align:center;
-    font-size:  25px;
-    margin-top: 8px;
-    margin-bottom: 0px;
-    color: #2B5151;
-  }
-
   
   .project-1:hover {
     background-color:#FEDE00;
